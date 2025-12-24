@@ -109,6 +109,7 @@ cursor: pointer;
             .calculator-container {
                 padding: 15px;
                 border-radius: 15px;
+                background-position:center;
             }
             
             .display {
