@@ -106,7 +106,7 @@ cursor: pointer;
 
         /* Mobile (up to 767px) */
         @media (max-width: 767px) {
-            .calculator-container {
+            #card {
                 padding: 15px;
                 border-radius: 15px;
                 background-position:center;
