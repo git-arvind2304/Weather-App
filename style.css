@@ -8,8 +8,9 @@
  body{
     background:#222 ;
     background-image: url(https://i.pinimg.com/736x/c1/a3/8d/c1a38d47574f7865b4fcbd299938eb67.jpg);
-    background-position:left;
-     background-repeat: no-repeat;
+    background-position: center;
+    background-size :cover;
+    background-repeat: no-repeat;
     
  }
 
@@ -138,29 +139,4 @@ cursor: pointer;
             }
         }
 
-        /* Tablet (768px to 1023px) */
-        @media (min-width: 768px) and (max-width: 1023px) {
-            .calculator-container {
-                max-width: 450px;
-                padding: 25px;
-            }
-            
-            .display {
-                height: 130px;
-                padding: 25px;
-            }
-            
-            .current-operation {
-                font-size: 2.8rem;
-            }
-            
-            .button {
-                height: 75px;
-                font-size: 1.6rem;
-            }
-            
-            .device-icon:nth-child(2) {
-                opacity: 1;
-                color: #4cd964;
-            }
-        }
+        
